@@ -28,7 +28,7 @@ export default function Home() {
           <div className="md:grid grid-cols-4 gap-6">
             <section className="col-span-2 ">
               <div className="leading-normal text-6xl flex items-start font-medium tracking-tighter">
-                Fast, secure {"&"} easy loans in just 1 Day
+               {" Fast, secure & easy loans in just 1 Day"}
               </div>
               <div className="text-sm pr-5 mt-3">
                 Need some fast case? Bad credit history? We don't mind about

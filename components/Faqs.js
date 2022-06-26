@@ -21,7 +21,7 @@ export default function Faqs() {
   return (
     <div className="space-y-10">
       <section className="flex items-center bg-gray-200 h-[1px] w-full">
-        <span className="bg-gray-100 mx-auto px-1">FAQ's {"&"} Blog</span>
+        <span className="bg-gray-100 mx-auto px-1">{"FAQ's & Blog"}</span>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-5 gap-7">
         <div className="col-span-3 space-y-4">
