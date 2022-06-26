@@ -31,7 +31,7 @@ export default function Home() {
                {" Fast, secure & easy loans in just 1 Day"}
               </div>
               <div className="text-sm pr-5 mt-3">
-                Need some fast case? Bad credit history? We don't mind about
+                Need some fast case? Bad credit history? We dont mind about
                 your past, just the future. Try loan start and feel secure in
                 your future
               </div>
