@@ -59,7 +59,7 @@ export default function Loans() {
               <div className="font-medium text-xl">$220 x6</div>
             </div>
             <div className="px-2">
-              <button className=" bg-yellow-500 rounded w-full p-3">
+              <button className=" bg-yellow-500  shadow-md shadow-yellow-600 rounded w-full p-3">
                 APPLY NOW
               </button>
             </div>

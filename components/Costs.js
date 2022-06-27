@@ -20,7 +20,7 @@ export default function Costs() {
   return (
     <div className="space-y-10">
       <section className="flex items-center bg-gray-200 h-[1px] w-full">
-        <span className="bg-gray-100 mx-auto px-1">
+        <span className="bg-gray-100 mx-auto px-1 font-medium text-xl">
           Who Can Qualify for OUr Fast Cash Loans?
         </span>
       </section>

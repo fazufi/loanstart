@@ -26,7 +26,7 @@ export default function Works() {
   return (
     <div>
       <section className="flex items-center bg-gray-200 h-[1px] w-full">
-        <span className="bg-gray-100 mx-auto px-1">How it works?</span>
+        <span className="bg-gray-100 mx-auto px-1 font-medium text-xl">How it works?</span>
       </section>
       <section className="grid grid-cols-3 mt-16 ">
         {howWorkLists.map((h, idx) => (
@@ -38,7 +38,7 @@ export default function Works() {
         ))}
       </section>
       <section className="flex justify-center mt-10">
-        <button className="bg-yellow-500 py-3 px-16 rounded">APPLY NOW</button>
+        <button className="bg-yellow-500  shadow-md shadow-yellow-600 py-3 px-16 rounded">APPLY NOW</button>
       </section>
     </div>
   );

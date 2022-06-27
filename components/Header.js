@@ -35,7 +35,7 @@ export default function Header() {
             </a>
           </Link>
         ))}
-        <button className="bg-yellow-500 p-3 rounded ">LOG IN / SIGN</button>
+        <button className="bg-yellow-500  shadow-md shadow-yellow-600 p-3 rounded ">LOG IN / SIGN</button>
       </section>
 
       <section className="relative md:hidden inline-block text-left">
@@ -73,7 +73,7 @@ export default function Header() {
                   </a>
                 </Link>
               ))}
-              <button className="bg-yellow-500 p-3 rounded w-full ">
+              <button className="bg-yellow-500  shadow-md shadow-yellow-600 p-3 rounded w-full ">
                 LOG IN / SIGN
               </button>
             </div>
