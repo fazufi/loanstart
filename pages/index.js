@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="px-3 md:px-24 py-10 space-y-20 bg-gray-100 relative">
+      <div className="flex flex-col justify-between min-h-[90vh] px-3 md:px-24 py-10 space-y-20 bg-gray-100 relative">
         <div>
           <div className="md:grid grid-cols-4 gap-6">
             <section className="col-span-2 ">

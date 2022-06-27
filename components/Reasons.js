@@ -42,7 +42,7 @@ export default function Reasons() {
             <img
               src="half-laptop.png"
               alt=""
-              className=" object-fill overflow-hidden -ml-40"
+              className=" object-fill overflow-hidden -ml-20 md:-ml-40"
             />
           </div>
         </div>
