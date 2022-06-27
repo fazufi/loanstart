@@ -46,7 +46,7 @@ export default function WhyUs() {
       </section>
       <section className="grid gri-cols-1 md:grid-cols-2 gap-7 mt-20">
         {lists.map((l, idx) => (
-          <div className="flex gap-3 items-center">
+          <div key={idx} className="flex gap-3 items-center">
           <div>  {l.icon}</div>
             <div className="space-y-3">
               <div className="text-xl font-semibold">{l.title} </div>
