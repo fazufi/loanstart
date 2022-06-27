@@ -19,8 +19,8 @@ export default function Reasons() {
           <div className="border border-gray-200 shadow space-y-4 py-3 px-5">
             <div className="text-2xl">Contact Us 24 hours a day</div>
             {service.map((s, idx) => (
-              <div className="flex gap-4 items-center">
-                <div key={idx} className="text-gray-400">
+              <div key={idx} className="flex gap-4 items-center">
+                <div  className="text-gray-400">
                   {s.icon}
                 </div>
                 <div>{s.text} </div>

@@ -35,10 +35,10 @@ export default function Location() {
       <section>
         <div className="grid grid-cols-3 md:grid-cols-6">
           {locations.map((l, idx1) => (
-            <div>
+            <div key={idx1}>
               <div className="font-semibold mb-3">{l.title} </div>
               {l.lists.map((ll, idx2) => (
-                <div>{ll}</div>
+                <div key={idx2}>{ll}</div>
               ))}
             </div>
           ))}

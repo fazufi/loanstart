@@ -48,8 +48,8 @@ export default function Details() {
             {Array(8)
               .fill()
               .map((undefined, idx) => (
-                <div className="flex justify-between">
-                  <div key={idx}>Lorem Ipsum</div>
+                <div key={idx} className="flex justify-between">
+                  <div >Lorem Ipsum</div>
                   <div className="font-semibold">$500</div>
                 </div>
               ))}
