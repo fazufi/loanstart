@@ -71,7 +71,7 @@ export default function Reasons() {
             </div>
           </div>
           <div className="flex border border-gray-200 shadow shadow-gray-300 pt-7 pb-2 pl-7 pr-0 ">
-            <div className="-mr-20 space-y-4">
+            <div className="overflow-hidden md:-mr-20 space-y-4">
               <div className="text-2xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod
@@ -84,7 +84,7 @@ export default function Reasons() {
                 LEARN MORE NOW
               </button>
             </div>
-            <img src="laptop.png" alt="" />
+            <img src="laptop.png" alt="" className="absolute md:relative right-0 md:right-auto opacity-70 md:opacity-100" />
           </div>
         </div>
       </section>
